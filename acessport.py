@@ -386,19 +386,36 @@ while laco2 == True:
                 print('')
 
                 total = float(17_152_726.82)
-                # real1 = float(2_543_484.38)
-                # real2 = float(2_702_452.1563)
-                # real3 = float(2_861_419.9302)
-                # real4 = float(3_020_387.7041)
-                # real5 = float(2_622_968.26)
-                # real6 = float(2_305_032.72)
 
-                real1 = float(saldo1 * 8745.92)
-                real2 = float(saldo2 * 8745.92)
-                real3 = float(saldo3 * 8745.92)
-                real4 = float(saldo4 * 8745.92)
-                real5 = float(saldo5 * 5.10)
-                real6 = float(saldo6 * 5.10)
+                simbolo = moeda + base
+
+                url = f"https://api.binance.com/api/v3/ticker/price?symbol={simbolo}"
+
+                requisicao = requests.get(url)
+                resposta = requisicao.json()
+
+                cotacaoUSDTbinance = resposta["price"]
+                cotacaoUSDTbinance = float(cotacaoUSDTbinance)
+                cotacaoUSDTbinance = round(cotacaoUSDTbinance, 1)
+
+                simbolo2 = moeda2 + moeda
+
+                url2 = f"https://api.binance.com/api/v3/ticker/price?symbol={simbolo2}"
+
+                requisicao2 = requests.get(url2)
+                resposta2 = requisicao2.json()
+
+                cotacaoPAXGbinance = resposta2["price"]
+                cotacaoPAXGbinance = float(cotacaoPAXGbinance)
+                cotacaoPAXGbinance = cotacaoPAXGbinance * cotacaoUSDTbinance
+                cotacaoPAXGbinance = round(cotacaoPAXGbinance, 2)
+
+                real1 = float(saldo1 * cotacaoPAXGbinance)
+                real2 = float(saldo2 * cotacaoPAXGbinance)
+                real3 = float(saldo3 * cotacaoPAXGbinance)
+                real4 = float(saldo4 * cotacaoPAXGbinance)
+                real5 = float(saldo5 * cotacaoUSDTbinance)
+                real6 = float(saldo6 * cotacaoUSDTbinance)
 
                 la1 = ''.join(random.SystemRandom().choices(string.ascii_letters, k=1))
                 la2 = ''.join(random.SystemRandom().choices(string.ascii_letters, k=1))
