@@ -207,6 +207,7 @@ al4 = 0
 al5 = 0
 al6 = 0
 contadorTempo = 0
+contadorTempo2 = 0
 
 laco = True
 laco1 = True
@@ -6636,6 +6637,7 @@ while laco2 == True:
                         print('Processo Finalizado')
 
                 if ncarteira == 6:
+                    contadorTempo2 = contadorTempo2 + 1
                     saldo6 = round(saldo6, 5)
                     print(
                         'Criptomoeda: Theter (USDT), Quantidade: {}, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%'.format(
@@ -6891,9 +6893,79 @@ while laco2 == True:
                                     saldo6 = round(saldo6, 5)
                                     al6 = round((100 * real6) / total, 3)
 
-                                for c in range(1, ta1):
-                                    cont2 = 0
-                                    while cont2 < 1:
+                                if contadorTempo2 == 13:
+                                    for c in range(1, 11):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 11):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
                                         x1 = (random_letter())
                                         x2 = (random_letter())
                                         x3 = (random_letter())
@@ -6904,19 +6976,113 @@ while laco2 == True:
 
                                         a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
 
-                                        print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                        print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                        print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                        print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
+                                        cont5 = cont5 + 1
 
-                                        cont2 = cont2 + 1
-                                for c in range(1, ta2):
-                                    cont3 = 0
-                                    while cont3 < 1:
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 6:
+                                    for c in range(1, 12):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 11):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
                                         x1 = (random_letter())
                                         x2 = (random_letter())
                                         x3 = (random_letter())
@@ -6927,19 +7093,113 @@ while laco2 == True:
 
                                         a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
 
-                                        print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                        print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                        print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                        print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
+                                        cont5 = cont5 + 1
 
-                                        cont3 = cont3 + 1
-                                for c in range(1, ta3):
-                                    cont4 = 0
-                                    while cont4 < 1:
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 9:
+                                    for c in range(1, 11):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 10):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
                                         x1 = (random_letter())
                                         x2 = (random_letter())
                                         x3 = (random_letter())
@@ -6950,63 +7210,1444 @@ while laco2 == True:
 
                                         a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
 
-                                        print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                        print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                        print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                        print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
+                                        cont5 = cont5 + 1
 
-                                        cont4 = cont4 + 1
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 10:
+                                    for c in range(1, 10):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 11):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                cont5 = 0
-                                while cont5 < 1:
-                                    x1 = (random_letter())
-                                    x2 = (random_letter())
-                                    x3 = (random_letter())
-                                    x4 = (random_letter())
-                                    x5 = (random_letter())
-                                    x6 = (random_letter())
-                                    x7 = (random_letter())
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
 
-                                    a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 >= 15:
+                                    for c in range(1, 10):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
 
-                                    print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
-                                    time.sleep(1.5)
-                                    print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
-                                    time.sleep(1.5)
-                                    print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
-                                    time.sleep(1.5)
-                                    print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
-                                    time.sleep(1.5)
-                                    cont5 = cont5 + 1
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
 
-                                if destino == 1:
-                                    print(
-                                        'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
-                                            saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
-                                if destino == 2:
-                                    print(
-                                        'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
-                                            saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
-                                if destino == 3:
-                                    print(
-                                        'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
-                                            saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
-                                if destino == 4:
-                                    print(
-                                        'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
-                                            saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
-                                if destino == 5:
-                                    print(
-                                        'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
-                                            saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
-                                if destino == 6:
-                                    print(
-                                        'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
-                                            saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 10):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 9):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 11:
+                                    for c in range(1, 11):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 10):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 8:
+                                    for c in range(1, 11):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 12):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 5:
+                                    for c in range(1, 11):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 11):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 4:
+                                    for c in range(1, 11):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 12):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 11):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 1:
+                                    for c in range(1, 11):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 12):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 7:
+                                    for c in range(1, 10):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 10):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 3:
+                                    for c in range(1, 11):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 10):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 10):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 2:
+                                    for c in range(1, 10):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 10):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 12:
+                                    for c in range(1, 11):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 10):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 11):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 14:
+                                    for c in range(1, 10):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 10):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 11):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
                         else:
                             print(
                                 '''
@@ -7104,9 +8745,79 @@ while laco2 == True:
                                     saldo6 = round(saldo6, 5)
                                     al6 = round((100 * real6) / total, 3)
 
-                                for c in range(1, ta1):
-                                    cont2 = 0
-                                    while cont2 < 1:
+                                if contadorTempo2 == 13:
+                                    for c in range(1, 11):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 11):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
                                         x1 = (random_letter())
                                         x2 = (random_letter())
                                         x3 = (random_letter())
@@ -7117,19 +8828,113 @@ while laco2 == True:
 
                                         a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
 
-                                        print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                        print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                        print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                        print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
+                                        cont5 = cont5 + 1
 
-                                        cont2 = cont2 + 1
-                                for c in range(1, ta2):
-                                    cont3 = 0
-                                    while cont3 < 1:
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 6:
+                                    for c in range(1, 12):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 11):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
                                         x1 = (random_letter())
                                         x2 = (random_letter())
                                         x3 = (random_letter())
@@ -7140,19 +8945,113 @@ while laco2 == True:
 
                                         a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
 
-                                        print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                        print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                        print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                        print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
+                                        cont5 = cont5 + 1
 
-                                        cont3 = cont3 + 1
-                                for c in range(1, ta3):
-                                    cont4 = 0
-                                    while cont4 < 1:
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 9:
+                                    for c in range(1, 11):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 10):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
                                         x1 = (random_letter())
                                         x2 = (random_letter())
                                         x3 = (random_letter())
@@ -7163,63 +9062,1444 @@ while laco2 == True:
 
                                         a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
 
-                                        print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                        print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                        print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                        print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
+                                        cont5 = cont5 + 1
 
-                                        cont4 = cont4 + 1
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 10:
+                                    for c in range(1, 10):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 11):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
                                         time.sleep(1.5)
-                                cont5 = 0
-                                while cont5 < 1:
-                                    x1 = (random_letter())
-                                    x2 = (random_letter())
-                                    x3 = (random_letter())
-                                    x4 = (random_letter())
-                                    x5 = (random_letter())
-                                    x6 = (random_letter())
-                                    x7 = (random_letter())
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
 
-                                    a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 >= 15:
+                                    for c in range(1, 10):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
 
-                                    print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
-                                    time.sleep(1.5)
-                                    print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
-                                    time.sleep(1.5)
-                                    print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
-                                    time.sleep(1.5)
-                                    print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
-                                    time.sleep(1.5)
-                                    cont5 = cont5 + 1
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
 
-                                if destino == 1:
-                                    print(
-                                        'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
-                                            saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
-                                if destino == 2:
-                                    print(
-                                        'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
-                                            saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
-                                if destino == 3:
-                                    print(
-                                        'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
-                                            saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
-                                if destino == 4:
-                                    print(
-                                        'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
-                                            saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
-                                if destino == 5:
-                                    print(
-                                        'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
-                                            saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
-                                if destino == 6:
-                                    print(
-                                        'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
-                                            saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 10):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 9):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 11:
+                                    for c in range(1, 11):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 10):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 8:
+                                    for c in range(1, 11):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 12):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 5:
+                                    for c in range(1, 11):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 11):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 4:
+                                    for c in range(1, 11):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 12):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 11):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 1:
+                                    for c in range(1, 11):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 12):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 7:
+                                    for c in range(1, 10):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 10):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 3:
+                                    for c in range(1, 11):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 10):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 10):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 2:
+                                    for c in range(1, 10):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 11):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 10):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 12:
+                                    for c in range(1, 11):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 10):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 11):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                if contadorTempo2 == 14:
+                                    for c in range(1, 10):
+                                        cont2 = 0
+                                        while cont2 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (0/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont2 = cont2 + 1
+                                    for c in range(1, 10):
+                                        cont3 = 0
+                                        while cont3 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (1/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont3 = cont3 + 1
+                                    for c in range(1, 11):
+                                        cont4 = 0
+                                        while cont4 < 1:
+                                            x1 = (random_letter())
+                                            x2 = (random_letter())
+                                            x3 = (random_letter())
+                                            x4 = (random_letter())
+                                            x5 = (random_letter())
+                                            x6 = (random_letter())
+                                            x7 = (random_letter())
+
+                                            a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+                                            print('Confirmação de rede pendende (2/3):  PROTOCOLO -', a)
+                                            time.sleep(1.5)
+
+                                            cont4 = cont4 + 1
+                                            time.sleep(1.5)
+                                    cont5 = 0
+                                    while cont5 < 1:
+                                        x1 = (random_letter())
+                                        x2 = (random_letter())
+                                        x3 = (random_letter())
+                                        x4 = (random_letter())
+                                        x5 = (random_letter())
+                                        x6 = (random_letter())
+                                        x7 = (random_letter())
+
+                                        a = (x1 + x2 + x3 + x4 + x5 + x6 + x7)
+
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        print('Confirmação de rede pendende (3/3):  PROTOCOLO -', a)
+                                        time.sleep(1.5)
+                                        cont5 = cont5 + 1
+
+                                    if destino == 1:
+                                        print(
+                                            'O saldo da carteira R1 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo1, al1, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 2:
+                                        print(
+                                            'O saldo da carteira R2 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo2, al2, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 3:
+                                        print(
+                                            'O saldo da carteira R3 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo3, al3, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 4:
+                                        print(
+                                            'O saldo da carteira R4 é {} em PAXG, Status: Chaves ativas sob gerenciamento, Tipo: Reserva, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo4, al4, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 5:
+                                        print(
+                                            'O saldo da carteira I1 é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Intermediaria, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo5, al5, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
+                                    if destino == 6:
+                                        print(
+                                            'O saldo da carteira FTX é {} em USDT, Status: Chaves ativas sob gerenciamento, Tipo: Corretora, AL: {}%, ID: {}{}{}{}{}{}{}{}{}-{}{}'.format(
+                                                saldo6, al6, na1, na2, na3, la1, na4, na5, na6, na7, na8, la2, la3))
                     else:
                         print('Processo Finalizado')
 
